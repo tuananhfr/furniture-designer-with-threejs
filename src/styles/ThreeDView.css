@@ -1,0 +1,6 @@
+/* styles/ThreeDView.css */
+.three-d-view {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}

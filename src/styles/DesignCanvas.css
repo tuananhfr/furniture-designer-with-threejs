@@ -1,0 +1,27 @@
+.design-canvas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.view-2d,
+.view-3d {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+}
+
+.notification-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #fffae6;
+  border: 1px solid #f5c518;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}

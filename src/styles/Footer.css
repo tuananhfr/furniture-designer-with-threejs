@@ -1,0 +1,224 @@
+/* styles/Footer.css */
+.footer {
+  background-color: #13151a;
+  color: #cccccc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+/* Logo du footer */
+.footer-logo {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start; /* Aligné à gauche au lieu de centré */
+  background-color: #13151a;
+  max-width: 1200px;
+  margin: 0; /* Garde l'alignement avec le reste du footer */
+}
+
+.footer-logo img {
+  height: 45px;
+}
+
+/* Ligne de séparation horizontale */
+.footer-separator {
+  height: 1px;
+  background-color: #333;
+  margin: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.about-column {
+  flex: 1.2;
+}
+
+.contact-column {
+  flex: 1;
+  margin-left: auto;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* Section À propos */
+.about-column p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Section Contact */
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.phone-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23cccccc"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM12 3v10l3 3h6V3h-9z"></path></svg>');
+}
+
+.clock-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23cccccc"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>');
+}
+
+.email-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23cccccc"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>');
+}
+
+.location-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23cccccc"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>');
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section Légal */
+.legal-section {
+  margin-top: 30px;
+}
+
+/* Section Social */
+.social-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.follow-text {
+  margin: 0 15px 0 0;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+}
+
+.pinterest-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.77 3.4 8.74 7.93 9.67.58.1.8-.25.8-.56 0-.27-.01-1.02-.01-2-.7.15-1.34.23-2.02.23-3.44 0-4.2-2.48-4.2-2.48-1.12-2.84.26-3.6.26-3.6 1.12-.8 2.84.26 2.84.26 2.23 1.69 5.83 1.12 7.29.86.36-1.69 1.38-2.84 2.51-3.5-3.18-.58-6.53-1.59-6.53-7.09 0-1.57.56-2.84 1.47-3.84-.2-.36-.8-1.82.14-3.78 0 0 1.2-.36 3.9 1.44 1.14-.32 2.35-.48 3.56-.48 1.21 0 2.42.16 3.56.48 2.7-1.8 3.9-1.44 3.9-1.44.94 1.96.34 3.42.17 3.78.91 1 1.47 2.27 1.47 3.84 0 5.5-3.35 6.51-6.53 7.09.56.48 1.08 1.44 1.08 2.92 0 2.11-.01 3.81-.01 4.34 0 .31.22.67.8.56C18.6 20.74 22 16.77 22 12c0-5.52-4.48-10-10-10z"></path></svg>');
+}
+
+.instagram-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.22.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.05.41 2.22.06 1.27.07 1.65.07 4.85 0 3.2-.01 3.58-.07 4.85-.05 1.17-.25 1.8-.41 2.22-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.05.36-2.22.41-1.27.06-1.65.07-4.85.07-3.2 0-3.58-.01-4.85-.07-1.17-.05-1.8-.25-2.22-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.05-.41-2.22-.06-1.27-.07-1.65-.07-4.85 0-3.2.01-3.58.07-4.85.05-1.17.25-1.8.41-2.22.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.05-.36 2.22-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.15.63 3.38.93 2.72 1.35 2.06 2.01 1.35 2.72.93 3.38.63 4.15.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12c0 3.26.01 3.67.07 4.95.06 1.27.26 2.15.56 2.9.3.77.72 1.43 1.38 2.09.66.66 1.32 1.08 2.09 1.38.75.3 1.63.5 2.9.56 1.28.06 1.69.07 4.95.07 3.26 0 3.67-.01 4.95-.07 1.27-.06 2.15-.26 2.9-.56.77-.3 1.43-.72 2.09-1.38.66-.66 1.08-1.32 1.38-2.09.3-.75.5-1.63.56-2.9.06-1.28.07-1.69.07-4.95 0-3.26-.01-3.67-.07-4.95-.06-1.27-.26-2.15-.56-2.9-.3-.77-.72-1.43-1.38-2.09-.66-.66-1.32-1.08-2.09-1.38-.75-.3-1.63-.5-2.9-.56C15.67.01 15.26 0 12 0zm0 5.84c-3.4 0-6.16 2.76-6.16 6.16 0 3.4 2.76 6.16 6.16 6.16 3.4 0 6.16-2.76 6.16-6.16 0-3.4-2.76-6.16-6.16-6.16zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm6.42-11.43c-.79 0-1.43.64-1.43 1.43s.64 1.43 1.43 1.43 1.43-.64 1.43-1.43-.64-1.43-1.43-1.43z"></path></svg>');
+}
+
+/* Copyright et Langues */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative; /* Pour le positionnement absolu du copyright */
+}
+
+.copyright {
+  color: #777;
+  font-size: 12px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.language-flags {
+  display: flex;
+  margin-left: auto; /* Pousse les drapeaux complètement à droite */
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  margin-left: 10px;
+  border-radius: 2px;
+  background-size: cover;
+}
+
+/* Ajout d'un espace vide pour équilibrer la mise en page */
+.empty-space {
+  width: 10px; /* Une petite largeur pour maintenir la structure */
+}
+
+.french-flag {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><rect width="900" height="600" fill="%23ED2939"/><rect width="600" height="600" fill="%23fff"/><rect width="300" height="600" fill="%23002395"/></svg>');
+}
+
+.english-flag {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect width="1200" height="600" fill="%23012169"/><path d="M0,0 L1200,600 M1200,0 L0,600" stroke="%23fff" stroke-width="120"/><path d="M0,0 L1200,600 M1200,0 L0,600" stroke="%23C8102E" stroke-width="80"/><path d="M600,0 L600,600 M0,300 L1200,300" stroke="%23fff" stroke-width="200"/><path d="M600,0 L600,600 M0,300 L1200,300" stroke="%23C8102E" stroke-width="120"/></svg>');
+}
+
+.dutch-flag {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><rect width="900" height="600" fill="%2321468B"/><rect width="900" height="400" fill="%23fff"/><rect width="900" height="200" fill="%23AE1C28"/></svg>');
+}

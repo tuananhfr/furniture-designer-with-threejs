@@ -1,0 +1,81 @@
+/* styles/Sidebar.css */
+.sidebar {
+  width: 240px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.sidebar-section {
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar-item i {
+  margin-right: 10px;
+  width: 16px;
+  text-align: center;
+}
+
+.sidebar-category {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.sidebar-category i {
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.sidebar-category.expanded i {
+  transform: rotate(180deg);
+}
+
+.category-items {
+  background-color: #fafafa;
+}
+
+.sidebar-subitem {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 30px;
+  cursor: pointer;
+}
+
+.sidebar-subitem:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar-subitem i {
+  margin-right: 10px;
+  width: 16px;
+  text-align: center;
+}
+
+.options-section {
+  padding: 10px 15px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.option-item input {
+  margin-right: 8px;
+}
