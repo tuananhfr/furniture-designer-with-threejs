@@ -11,7 +11,7 @@ An interactive web application that allows users to design and visualize furnitu
 
 ## Demo
 
-[Live Demo](#) - _Coming soon_
+[Live Demo](https://furniture-designer-with-threejs.vercel.app/)
 
 ## Technologies Used
 
